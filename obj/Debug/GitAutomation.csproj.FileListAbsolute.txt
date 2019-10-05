@@ -1,0 +1,7 @@
+D:\User\Desktop\GitAutomation\bin\Debug\GitAutomation.exe.config
+D:\User\Desktop\GitAutomation\bin\Debug\GitAutomation.exe
+D:\User\Desktop\GitAutomation\bin\Debug\GitAutomation.pdb
+D:\User\Desktop\GitAutomation\obj\Debug\GitAutomation.csprojAssemblyReference.cache
+D:\User\Desktop\GitAutomation\obj\Debug\GitAutomation.csproj.CoreCompileInputs.cache
+D:\User\Desktop\GitAutomation\obj\Debug\GitAutomation.exe
+D:\User\Desktop\GitAutomation\obj\Debug\GitAutomation.pdb
