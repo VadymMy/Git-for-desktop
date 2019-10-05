@@ -80,7 +80,7 @@ namespace GitAutomation
         {
             if (IsInternetConnected())
             {
-                EnterCommand((Commands["Push"]));
+                EnterCommand(Commands["Push"]);
                 Console.WriteLine("Processed.");
             }
             else
@@ -89,7 +89,7 @@ namespace GitAutomation
         static void Main(string[] args)
         {
             SetStartInfo();
-            string statusInput = EnterCommand((Commands["Status"]));
+            string statusInput = EnterCommand(Commands["Status"]);
             if (!IsGitRepoInDirectory(statusInput))
                 Console.WriteLine(exceptions[0].Message);
             else if (!IsSmthToCommit(statusInput) && !ExistsNotPushedCommits(statusInput))
@@ -98,8 +98,8 @@ namespace GitAutomation
                 Push();            
             else
             {
-                EnterCommand((Commands["Add"]));
-                EnterCommand((Commands["Commit"]));
+                EnterCommand(Commands["Add"]);
+                EnterCommand(Commands["Commit"]);
                 Push();
             }
             Console.ReadKey();
